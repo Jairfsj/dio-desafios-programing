@@ -2,7 +2,7 @@ body{
     font: 20px Arial, sans-serif;
 }
 .navbar{
-    background-color:#298A08;
+    background-color: #0D71A4;
 }
 
 .quem-somos{
@@ -18,4 +18,8 @@ body{
 .parceiros{
     background-color: #8181f7;
     padding-top: 10px;
+}
+.bg-footer{
+    background-color: black ;
+    color: white;
 }
