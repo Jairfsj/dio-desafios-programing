@@ -15,3 +15,10 @@ function returnEvenValues(array) {
 let array = [1, 2, 3, 4, 5, 7, 8];
 
 returnEvenValues(array);
+
+function soma(a,b) {
+  return a + b ; //8
+  
+}
+
+soma(3,5);
