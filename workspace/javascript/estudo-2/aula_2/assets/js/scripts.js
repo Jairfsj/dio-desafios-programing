@@ -4,4 +4,4 @@
  
 var vOrF = false;
 
-console.log(vOrF);
+console.log(typeof(vOrF));
