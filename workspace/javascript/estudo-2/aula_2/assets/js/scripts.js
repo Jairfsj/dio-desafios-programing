@@ -2,6 +2,6 @@
 
 //Booleans
  
-var vOrF = False;
+var vOrF = false;
 
 console.log(vOrF);
