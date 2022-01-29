@@ -8,4 +8,4 @@ console.log(typeof(vOrF));
 
 // number
 var numeroQualquer = 1;
-console.log()
+console.log(numeroQualquer);
