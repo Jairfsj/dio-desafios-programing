@@ -6,6 +6,10 @@ var vOrF = false;
 
 console.log(typeof(vOrF));
 
-// number
+// numbers
 var numeroQualquer = 1;
-console.log(numeroQualquer);
+console.log(typeof(numeroQualquer));
+
+// strings
+var palavra = 'hoje';
+console.log(typeof(palavra));
