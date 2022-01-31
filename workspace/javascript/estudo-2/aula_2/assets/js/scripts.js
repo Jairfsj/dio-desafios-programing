@@ -27,5 +27,14 @@ let variable2 = 'jair';
 variable2 = 'Francisco'
 console.log(variable2);*/ 
 
-const constante;
-console.log();
+const constante = 'Jair ';
+console.log(constante);
+
+var escopoGlobal = 'global';
+console.log(escopoGlobal);
+
+function escopoLocal(){
+    let escopoLocalInterno = 'local';
+  console.log(escopoLocalInterno);
+
+}
