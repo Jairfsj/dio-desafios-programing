@@ -19,3 +19,5 @@ var funcao = function(){}
 console.log(tyoeof(funcao));*/ 
 
 // Var Declaration
+var variable = 'Jair';
+console.log(variable);
