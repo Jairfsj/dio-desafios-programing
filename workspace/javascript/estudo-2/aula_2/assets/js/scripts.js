@@ -2,7 +2,7 @@
 
 //Booleans
  
-var vOrF = false;
+/*var vOrF = false;
 
 console.log(typeof(vOrF));
 
@@ -13,3 +13,9 @@ console.log(typeof(numeroQualquer));
 // strings
 var palavra = 'hoje';
 console.log(typeof(palavra));
+
+// function   
+var funcao = function(){}
+console.log(tyoeof(funcao));*/ 
+
+// Var Declaration
