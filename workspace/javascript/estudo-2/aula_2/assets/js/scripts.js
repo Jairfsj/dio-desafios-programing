@@ -20,4 +20,8 @@ console.log(tyoeof(funcao));*/
 
 // Var Declaration
 var variable = 'Jair';
+variable = 'francisco';
 console.log(variable);
+
+let variable2 = 'jair';
+console.log(variable2);
