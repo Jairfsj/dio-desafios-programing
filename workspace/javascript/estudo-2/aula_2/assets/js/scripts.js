@@ -27,7 +27,8 @@ let variable2 = 'jair';
 variable2 = 'Francisco'
 console.log(variable2);*/ 
 
-const constante = 'Jair ';
+/*const constante = 'Jair ';
+constante = 'Francisco'
 console.log(constante);
 
 var escopoGlobal = 'global';
@@ -38,3 +39,17 @@ function escopoLocal(){
   console.log(escopoLocalInterno);
 
 }
+escopoLocal();
+*/ 
+
+//Atribuição 
+var atribuicao = 'Jair';
+
+//Comparação 
+var comparacao = '0' == 0;
+console.log(comparacao);
+
+//Comporação Identica 
+var comparacaoIdentica = '0' === 0 ;
+console.log(comparacaoIdentica);
+
