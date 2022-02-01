@@ -43,7 +43,7 @@ escopoLocal();
 */ 
 
 //Atribuição 
-var atribuicao = 'Jair';
+/*var atribuicao = 'Jair';
 
 //Comparação 
 var comparacao = '0' == 0;
@@ -51,5 +51,45 @@ console.log(comparacao);
 
 //Comporação Identica 
 var comparacaoIdentica = '0' === 0 ;
-console.log(comparacaoIdentica);
+console.log(comparacaoIdentica);*/ 
 
+//Adição
+/*var adicao = 1 + 1;
+console.log(adicao);
+
+//Subitração 
+var subitracao = 3 - 1;
+console.log(subitracao);
+
+//Multiplicação 
+var multiplicacao = 4 * 5;
+console.log(multiplicacao);
+
+
+//Divisão Real 
+var divisaoreal = 12 / 4;
+console.log(divisaoreal);
+
+//Divisão inteira
+var divisaointeira = 6 % 4;
+console.log(divisaointeira);
+
+//Exponeação 
+var exponeacao = 12 ** 2;
+console.log(exponeacao);*/ 
+
+//Maior >
+var maiorque = 5 > 2;
+console.log(maiorque);
+
+//Menor <
+var menorque = 4 < 9
+console.log(menorque);
+
+// Maior ou igual
+var maiorOuIgual = 4 >= 4;
+console.log(maiorOuIgual);
+
+//Menor ou igual
+var menorOuIgual =  4 <= 4;
+console.log(menorOuIgual);
