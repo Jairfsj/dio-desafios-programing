@@ -79,7 +79,7 @@ var exponeacao = 12 ** 2;
 console.log(exponeacao);*/ 
 
 //Maior >
-var maiorque = 5 > 2;
+/*var maiorque = 5 > 2;
 console.log(maiorque);
 
 //Menor <
@@ -92,4 +92,15 @@ console.log(maiorOuIgual);
 
 //Menor ou igual
 var menorOuIgual =  4 <= 4;
-console.log(menorOuIgual);
+console.log(menorOuIgual);*/ 
+
+//Operadores logicos
+var  e = true && false ;
+console.log(e);
+
+var ou = true || false;
+console.log(ou);
+
+var nao = !true;
+console.log(nao);
+
