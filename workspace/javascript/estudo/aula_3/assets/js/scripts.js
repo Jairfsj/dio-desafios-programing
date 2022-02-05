@@ -14,5 +14,8 @@ console.log(array)
 */
 //Push
 
-array.push('novo item');
+/*array.push('novo item');
+console.log(array);*/ 
+
+array.pop();
 console.log(array);
