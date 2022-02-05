@@ -17,5 +17,8 @@ console.log(array)
 /*array.push('novo item');
 console.log(array);*/ 
 
-array.pop();
+/*array.pop();
+console.log(array);*/ 
+
+array.shift();
 console.log(array);
