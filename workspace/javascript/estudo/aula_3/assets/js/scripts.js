@@ -17,8 +17,18 @@ console.log(array)
 /*array.push('novo item');
 console.log(array);*/ 
 
+//Pop 
+
 /*array.pop();
 console.log(array);*/ 
 
-array.shift();
-console.log(array);
+//Shift 
+
+/*array.shift();
+console.log(array);*/ 
+
+//Unshift
+
+array.unshift('novo item');
+console.log(array)
+
