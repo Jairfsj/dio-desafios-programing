@@ -29,6 +29,10 @@ console.log(array);*/
 
 //Unshift
 
-array.unshift('novo item');
-console.log(array)
+/*array.unshift('novo item');
+console.log(array)*/ 
+
+//Indexof
+
+console.log(array.indexOf(true));
 
