@@ -5,5 +5,5 @@
 
 console.log(array);*/
 
-let array = ['string', 1, true,[array = [1],['array2']['array3']['array4']]];
-console.log()
+let array = ['string', 1, true,['array1'],['array2'],['array3'],['array4']];
+console.log(array)
