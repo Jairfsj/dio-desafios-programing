@@ -10,3 +10,4 @@ if(gamer1 > 0){
   console.log('Ninguêm marcou ponto!');
 }
 
+console.log();
