@@ -34,5 +34,10 @@ console.log(array)*/
 
 //Indexof
 
-console.log(array.indexOf(true));
+/*console.log(array.indexOf(true));*/ 
+
+//Splice
+
+array.splice(0, 3);
+console.log(array);
 
