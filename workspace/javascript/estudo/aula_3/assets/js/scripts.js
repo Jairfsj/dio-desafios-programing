@@ -6,7 +6,7 @@
 console.log(array);*/
 
 let array = ['string', 1, true,['array1'],['array2'],['array3'],['array4']];
-console.log(array) 
+//console.log(array) 
 
 //ForEach 
 
@@ -38,6 +38,13 @@ console.log(array)*/
 
 //Splice
 
-array.splice(0, 3);
-console.log(array);
+/*array.splice(0, 3);
+console.log(array);*/ 
+/*let newArray = array.slice(0, 2);
+console.log(newArray);*/ 
 
+let object = {string:'string', number: 1, boolean : true, array: ["array"], objectInterno: {objectInterno : 'objeto interno'} }
+console.log(object);
+
+var string = object.string;
+console.log(string);
