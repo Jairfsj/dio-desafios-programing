@@ -44,7 +44,13 @@ console.log(array);*/
 console.log(newArray);*/ 
 
 let object = {string:'string', number: 1, boolean : true, array: ["array"], objectInterno: {objectInterno : 'objeto interno'} }
-console.log(object);
+//console.log(object);
 
-var string = object.string;
+/*var string = object.string;
 console.log(string);
+
+var arrayInterno = object.array;
+console.log(arrayInterno);*/ 
+
+var {boolean, number, string} = object;
+console.log(boolean, number, string);
