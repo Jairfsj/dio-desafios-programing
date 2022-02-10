@@ -14,7 +14,7 @@ if(gamer1 > 0 && gamer2 == 0) {
 
 //ElseIf
 else if (gamer2 > 0 && gamer1 == 0 ) {
-    console.log('Gamer2 marcou ponto!');
+    console.log('Gamer 2 marcou ponto!');
     placar = gamer2 > gamer2;
 }
 
@@ -23,3 +23,15 @@ else {
     console.log('Ninguêm marcou ponto!');
 }
 
+//switch case
+switch (placar) {
+  case placar = gamer1 > gamer2:
+       console.log('Gamer 1 ganhou a partida');  
+    break;
+  case placar = gamer2 > gamer1:
+       console.log('Gamer 2 ganhou a partida');
+    break;
+  default:
+       console.log('Ninguém ganhou a partida')
+    break;
+}
