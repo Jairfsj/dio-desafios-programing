@@ -1,4 +1,4 @@
-var gamer1 = 1;
+/*var gamer1 = 1;
 var gamer2 = 0;
 var placar;
 
@@ -34,4 +34,11 @@ switch (placar) {
   default:
        console.log('Ninguém ganhou a partida !')
     break;
+}*/ 
+
+let array = ['valor 1', 'valor 2',
+'valor 3','valor 4', 'valor 5'];
+let object = {propriedade1:'valor 1', propriedade2:'valor 2', propriedade3:'valor 3'};
+for (let indice = 0; indice < array.length; indice++){
+  console.log(indice);
 }
