@@ -38,7 +38,7 @@ switch (placar) {
 
 let array = ['valor 3', 'valor 2',
 'valor 5','valor 4', 'valor 5'];
-let object = {propriedade3:'valor 1', propriedade2:'valor 2', propriedade3:'valor 3'};
+let object = {propriedade1:'valor 1', propriedade2:'valor 2', propriedade3:'valor 3'};
 /*
 //For = executa uma instrução até que lea seja falsa
 for (let indice = 2; indice < array.length; indice++){
@@ -51,4 +51,6 @@ for (let i in array){
 }
 
 //For In com object
-for 
+for(let i in object){
+  console.log(i)
+} 
