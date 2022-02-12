@@ -1,3 +1,5 @@
-function name(params) {
-  
+function nome() {
+  console.log('Jair.')
 }
+nome();
+
