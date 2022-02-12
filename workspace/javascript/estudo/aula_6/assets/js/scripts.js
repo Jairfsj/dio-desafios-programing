@@ -1,5 +1,5 @@
-function nome() {
-  console.log('Jair.')
+function funcao() {
+  console.log('Está é um mensagem de um função declarativa!')
 }
-nome();
+funcao();
 
