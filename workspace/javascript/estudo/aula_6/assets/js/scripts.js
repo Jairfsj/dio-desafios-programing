@@ -10,11 +10,16 @@ funcao();*/
 //Expressão de função 
 //Com nomeação
 
-var funcao = function funcao(){
+/*var funcao = function (){
   console.log('Mensagem executada apartir de uma função de expressão!')
 }
 
+funcao();*/
+
+
+//Arrow Functions 
+var funcao = () =>{
+  console.log('Sou uma arrow function!')
+}
+
 funcao();
-
-
-
