@@ -36,9 +36,16 @@ switch (placar) {
     break;
 }*/ 
 
-let array = ['valor 1', 'valor 2',
-'valor 3','valor 4', 'valor 5'];
-let object = {propriedade1:'valor 1', propriedade2:'valor 2', propriedade3:'valor 3'};
-for (let indice = 0; indice < array.length; indice++){
+let array = ['valor 3', 'valor 2',
+'valor 5','valor 4', 'valor 5'];
+let object = {propriedade3:'valor 1', propriedade2:'valor 2', propriedade3:'valor 3'};
+/*
+//For = executa uma instrução até que lea seja falsa
+for (let indice = 2; indice < array.length; indice++){
   console.log(indice);
+}*/
+
+//For/in executa repetição a partir de uma propriedade 
+for (let i in array){
+  console.log(i);
 }
