@@ -49,3 +49,6 @@ for (let indice = 2; indice < array.length; indice++){
 for (let i in array){
   console.log(i);
 }
+
+//For In com object
+for 
