@@ -16,7 +16,26 @@ function calculadora() {
   function soma() {
     resultado = n1 + n2;
     alert(`${n1} + ${n2} = ${resultado}`);
-    
+  }
+  function subtracao() {
+    resultado = n1 - n2;
+    alert(`${n1} - ${n2} = ${resultado}`);
+  }
+  function multiplicacao() {
+    resultado = n1 * n2;
+    alert(`${n1} * ${n2} = ${resultado}`
+  }
+  function divisaoReal() {
+    resultado = n1 / n2;
+    alert(`${n1} / ${n2} = ${resultado}`);
+  }
+  function soma() {
+    resultado = n1 % n2;
+    alert(`${n1} % ${n2} = ${resultado}`);
+  }
+  function soma() {
+    resultado = n1 ** n2;
+    alert(`${n1} * ${n2} = ${resultado}`);
   }
   if (operacao == 1) {
       soma();
