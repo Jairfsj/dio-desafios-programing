@@ -15,28 +15,33 @@ function calculadora() {
         let resultado;
   function soma() {
     resultado = n1 + n2;
-    alert(`${n1} + ${n2} = ${resultado}`);
+    alert(`${n1} + ${n2} = ${resultado}`)
   }
+  
   function subtracao() {
     resultado = n1 - n2;
-    alert(`${n1} - ${n2} = ${resultado}`);
+    alert(`${n1} - ${n2} = ${resultado}`)
   }
+  
   function multiplicacao() {
     resultado = n1 * n2;
-    alert(`${n1} * ${n2} = ${resultado}`
+    alert(`${n1} * ${n2} = ${resultado}`)
   }
+  
   function divisaoReal() {
     resultado = n1 / n2;
-    alert(`${n1} / ${n2} = ${resultado}`);
+    alert(`${n1} / ${n2} = ${resultado}`)
   }
-  function soma() {
+  
+  function divisaoInteira() {
     resultado = n1 % n2;
-    alert(`${n1} % ${n2} = ${resultado}`);
+    alert(`O resto da divisão entre ${n1} e ${n2} é igual a ${resultado}`)
   }
-  function soma() {
-    resultado = n1 ** n2;
-    alert(`${n1} * ${n2} = ${resultado}`);
+  function potenciacao() {
+     resultado = n1 ** n2;
+     alert(`${n1} elevado à ${n2}ª potência é ${resultado}`);
   }
+  
   if (operacao == 1) {
       soma();
   } else if (operacao == 2) {
@@ -47,7 +52,7 @@ function calculadora() {
       divisaoInteira();
   } else if (operacao == 5) {
       divisaoReal();
-  } else if (operacao == potenciacao){
+  } else if (operacao == 6){
       potenciacao();
   }
 
