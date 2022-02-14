@@ -16,44 +16,44 @@ function calculadora() {
   function soma() {
      resultado = n1 + n2;
      alert(`${n1} + ${n2} = ${resultado}`)
-     novaOperacao();
+     novaOperacao()
   }
   
   function subtracao() {
      resultado = n1 - n2;
      alert(`${n1} - ${n2} = ${resultado}`)
-     novaOperacao();
+     novaOperacao()
   }
   
   function multiplicacao() {
      resultado = n1 * n2;
      alert(`${n1} * ${n2} = ${resultado}`)
-     novaOperacao();
+     novaOperacao()
   }
   
   function divisaoReal() {
      resultado = n1 / n2;
      alert(`${n1} / ${n2} = ${resultado}`)
-     novaOperacao();
+     novaOperacao()
   }
   
   function divisaoInteira() {
      resultado = n1 % n2;
      alert(`O resto da divisão entre ${n1} e ${n2} é igual a ${resultado}`)
-     novaOperacao();
+     novaOperacao()
   }
   function potenciacao() {
      resultado = n1 ** n2;
      alert(`${n1} elevado à ${n2}ª potência é ${resultado}`)
-     novaOperacao();
+     novaOperacao()
   }
   
   function novaOperacao() {
-     let opcao = prompt('Você deseja fazer outra conta?'\n 1 - Sim\n 2 - Não');
+     let opcao = prompt('Você deseja fazer outra conta?\n 1 - Sim\n 2 - Não');
     
-     if (opcao == 1 ){
+     if (opcao == 1 ) {
          calculadora();
-     } else id (opcao == 2){
+     } else id (opcao == 2) {
        alert('Até logo!')
      } else {
        alert('Digite uma opção dentre as disponivéis!')
