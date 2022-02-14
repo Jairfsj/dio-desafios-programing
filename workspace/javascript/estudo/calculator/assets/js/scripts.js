@@ -51,15 +51,16 @@ function calculadora() {
   function novaOperacao() {
      let opcao = prompt('Você deseja fazer outra conta?\n 1 - Sim\n 2 - Não');
     
-     if (opcao == 1 ) {
+     if (opcao == 1) {
          calculadora();
-     } else id (opcao == 2) {
-       alert('Até logo!')
+     } else if (opcao == 2) {
+          alert('Até logo!');
      } else {
-       alert('Digite uma opção dentre as disponivéis!')
-       novaOperacao();
+          alert('Digite uma opção dentre as disponivéis!')
+          novaOperacao();
      }
-  } 
+  }
+
   if (operacao == 1) {
       soma();
   } else if (operacao == 2) {
