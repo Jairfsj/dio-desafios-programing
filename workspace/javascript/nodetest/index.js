@@ -1,5 +1,5 @@
-const (){
+const MY_FAV = 7 ;
 
-}
-console.log()
+console.log("My favorite number is: " +
+MY_FAV);
 
